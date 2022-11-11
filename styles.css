@@ -1,0 +1,193 @@
+/*192.168.100.14*/
+
+.mainpage-body {
+  background-color: aliceblue;
+  position: relative;
+}
+
+.header-mini__logo {
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  background-color: gray;
+  position: absolute;
+  top: -10px;
+  left: 25px;
+  z-index: 1000;
+}
+
+.header-mini__belt {
+  background-color: black;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 25px;
+  position: relative;
+  z-index: 900;
+}
+
+.header-mini__nav {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+
+.header-mini__nav_button {
+  border: 1px solid white;
+  width: 120px;
+  height: 30px;
+  display: inline-block;
+  color: white;
+}
+
+.header-mini__nav_button-aboutme {
+}
+
+.header-mini__nav_button-cooperation {
+}
+
+.header-mini__nav_button-blog {
+}
+
+.header-mini__nav_button-contact {
+}
+
+.mainpage-menu__background,
+.aboutme-introduction__background {
+  background-color: aqua;
+  width: 90%;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.mainpage-menu__section,
+.aboutme-introduction__section {
+  position: relative;
+  height: 250px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(173, 169, 206);
+}
+
+.mainpage-menu__photo {
+  border-radius: 8px;
+}
+
+.mainpage-menu__title {
+}
+
+.mainpage-menu__description {
+}
+
+.mainpage-menu__photo_aboutme,
+.mainpage-menu__photo_blog {
+  position: absolute;
+  left: 3%;
+}
+
+.mainpage-menu__title_aboutme,
+.mainpage-menu__title_blog {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+
+.mainpage-menu__description_aboutme,
+.mainpage-menu__description_blog {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  padding: 10px;
+}
+
+.mainpage-menu__photo_cooperation,
+.mainpage-menu__photo_contact {
+  position: absolute;
+  right: 3%;
+}
+
+.mainpage-menu__title_cooperation,
+.mainpage-menu__title_contact {
+  position: absolute;
+  right: 27%;
+}
+
+.mainpage-menu__description_cooperation,
+.mainpage-menu__description_contact {
+  position: absolute;
+  top: 23%;
+  right: 27%;
+  width: 600px;
+  text-align: right;
+}
+
+#arrows-up {
+  position: fixed;
+  right: 35px;
+  bottom: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(159, 223, 56, 0.5);
+}
+
+.footer-mini__belt {
+  background-color: black;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.aboutme-body {
+  background-color: aliceblue;
+  position: relative;
+}
+
+.aboutme-introduction__background {
+}
+
+.aboutme-trio__background {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: brown;
+  padding: 50px;
+  position: relative;
+}
+
+.aboutme-trio__section {
+  background: grey;
+  margin: 10px;
+  height: 550px;
+  width: 350px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutme-trio__section_values {
+  position: absolute;
+}
+
+.aboutme-trio__section_recommendations {
+  position: absolute;
+}
+
+.aboutme-trio__section_history {
+  position: absolute;
+}
+
+.aboutme-values__background {
+  background: rgb(56, 231, 21);
+}
+
+.aboutme-recommendations__background {
+  background: rgb(228, 231, 21);
+}
+
+.aboutme-history__background {
+  background: rgb(21, 137, 231);
+}

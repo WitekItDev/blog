@@ -55,7 +55,7 @@
 .aboutme-introduction__background {
   background-color: aqua;
   width: 90%;
-  height: 80%;
+  height: 400px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
@@ -67,10 +67,11 @@
 .mainpage-menu__section,
 .aboutme-introduction__section {
   position: relative;
-  height: 250px;
+  height: 350px;
   padding: 20px;
   margin-bottom: 10px;
   background-color: rgb(173, 169, 206);
+  border-radius: 8px;
 }
 
 .mainpage-menu__photo {
@@ -154,6 +155,7 @@
   background-color: brown;
   padding: 50px;
   position: relative;
+  height: 600px;
 }
 
 .aboutme-trio__section {
@@ -166,28 +168,61 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 8px;
 }
 
 .aboutme-trio__section_values {
   position: absolute;
+  top: 10%;
+  left: 5%;
 }
 
 .aboutme-trio__section_recommendations {
   position: absolute;
+  top: 10%;
+  left: 38%;
 }
 
 .aboutme-trio__section_history {
   position: absolute;
+  top: 10%;
+  right: 5%;
 }
 
 .aboutme-values__background {
-  background: rgb(56, 231, 21);
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  height: 600px;
+  padding: 3% 3%;
 }
 
 .aboutme-recommendations__background {
   background: rgb(228, 231, 21);
+  height: 600px;
 }
 
 .aboutme-history__background {
   background: rgb(21, 137, 231);
+  height: 600px;
+}
+
+.aboutme-values__section {
+  height: 95%;
+  background-color: rgba(173, 169, 206, 0.642);
+  border-radius: 8px;
+}
+
+.aboutme-recommendations__section {
+  height: 350px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(173, 169, 206);
+  border-radius: 8px;
+}
+
+.aboutme-history__section {
+  height: 350px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(173, 169, 206);
+  border-radius: 8px;
 }

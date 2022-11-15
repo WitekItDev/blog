@@ -211,13 +211,15 @@
 }
 
 .aboutme-recommendations__background {
-  background: rgb(228, 231, 21);
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
   height: 600px;
+  padding: 3% 3%;
 }
 
 .aboutme-history__background {
-  background: rgb(21, 137, 231);
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
   height: 600px;
+  padding: 3% 3%;
 }
 
 .aboutme-values__section {
@@ -227,17 +229,13 @@
 }
 
 .aboutme-recommendations__section {
-  height: 350px;
-  padding: 20px;
-  margin-bottom: 10px;
-  background-color: rgb(173, 169, 206);
+  height: 95%;
+  background-color: rgba(173, 169, 206, 0.642);
   border-radius: 8px;
 }
 
 .aboutme-history__section {
-  height: 350px;
-  padding: 20px;
-  margin-bottom: 10px;
-  background-color: rgb(173, 169, 206);
+  height: 95%;
+  background-color: rgba(173, 169, 206, 0.642);
   border-radius: 8px;
 }

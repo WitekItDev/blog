@@ -7,17 +7,46 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Współpraca</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="aboutme.html">O MNIE</a>
-        <a href="cooperation.html">WSPÓLNA PRACA</a>
-        <a href="blog.html">BLOG</a>
-        <a href="contact.html">KONTAKT</a>
-        <a href="main.html">MAIN</a>
-      </nav>
+  <body class="cooperation-body">
+    <header class="header-mini">
+      <a href="main.html"><div class="header-mini__logo"><b>LOGO</b></div></a>
+      <div class="header-mini__belt">
+        <nav class="header-mini__nav">
+          <div class="header-mini__nav_button header-mini__nav_button-aboutme header-mini_nav_button-aboutme--js">
+            <a href="aboutme.html">O MNIE</a>
+          </div>
+          <div class="header-mini__nav_button header-mini__nav_button-cooperation">
+            <a href="cooperation.html">WSPÓŁPRACA</a>
+          </div>
+          <div class="header-mini__nav_button header-mini__nav_button-blog">
+            <a href="blog.html">BLOG</a>
+          </div>
+          <div class="header-mini__nav_button header-mini__nav_button-contact">
+            <a href="contact.html">KONTAKT</a>
+          </div>
+        </nav>
+      </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+
+
+
+
+
+      <div id="arrows-up">
+        <a href="javascript:scroll(0,0);">
+          <img src="picture/arrows_up.jpg" alt="arrows up" width="50" height="50" />
+        </a>
+      </div>
+    </main>
+    <footer class="footer-mini">
+      <div class="footer-mini__belt">
+        <p class="footer-mini__description">
+          Copyright {copyright} {year} {site-title}
+          <!-- https://estartupy.pl/informacja-o-prawach-autorskich-w-stopce/ -->
+        </p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>

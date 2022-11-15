@@ -239,3 +239,12 @@
   background-color: rgba(173, 169, 206, 0.642);
   border-radius: 8px;
 }
+
+
+/* WSPÓLPRACA */
+
+
+.cooperation-body {
+  background-color: aliceblue;
+  position: relative;
+}

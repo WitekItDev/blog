@@ -1,5 +1,8 @@
 /*192.168.100.14*/
 
+/* GŁÓWNA STRONA */
+
+
 .mainpage-body {
   background-color: aliceblue;
   position: relative;
@@ -51,11 +54,10 @@
 .header-mini__nav_button-contact {
 }
 
-.mainpage-menu__background,
-.aboutme-introduction__background {
+.mainpage-menu__background {
   background-color: aqua;
   width: 90%;
-  height: 400px;
+  height: 90%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
@@ -141,12 +143,25 @@
   border-radius: 8px;
 }
 
+
+/* O MNIE */
+
+
 .aboutme-body {
   background-color: aliceblue;
   position: relative;
 }
 
 .aboutme-introduction__background {
+  background-color: aqua;
+  width: 90%;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
 }
 
 .aboutme-trio__background {
